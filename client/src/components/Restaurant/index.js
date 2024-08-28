@@ -71,10 +71,9 @@ function Restaurant() {
   const REGION = "us-east-1";
 
   AWS.config.update({
-    accessKeyId: "ASIAVV6QGH7CEWG3LTC6",
-    secretAccessKey: "27udbIVr+UYHbiLGBsLCwjudbG/RYRbW8+MvV/Pt",
-    sessionToken:
-      "FwoGZXIvYXdzEND//////////wEaDMrCvk7/XK5x8lUCJiLAAVOeUmwXs5BtYwf6MPxdN8kowknNEviXp62hsawUCA6rNcwMHADLNdx1hOz5A8EshOztd188RUWIHZCEhBdOeIATtfcBQFSUI5AV1rj5NPgdj/T9shTBUbsyULf/UBWPFdilwIrZmQZQW7DUxmVqOPg/cZhU+G8WAqNPBmSmr39Vj/z2RyhZ+RQgelAFvkPcGG9mm47jEjS76eYPV45dh8YdSqktXv5eQZPnpWjjE2ldZ9pQMhd/842I78KfVTAq5yix67KcBjItXJjtix0ysCVezBQn9zJkWytjtQi9qaVaG+C47qjUxUm+FeiheUdKXKHSwD1+",
+    accessKeyId: "",
+    secretAccessKey: "",
+    sessionToken: "",
   });
 
   const myBucket = new AWS.S3({
